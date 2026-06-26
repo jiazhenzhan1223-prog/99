@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* 米白色背景 */
+  --background: #f5f3ef;
+  /* 深棕色主文字 */
+  --foreground: #5d4e37;
+  /* 浅棕色辅助色 */
+  --accent: #a69b8c;
+  /* 边框色 */
+  --border: #d4cec4;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* 自定义类 */
+.text-accent {
+  color: var(--accent);
+}
+
+.bg-accent {
+  background-color: var(--accent);
+}
+
+.border-accent {
+  border-color: var(--border);
+}
