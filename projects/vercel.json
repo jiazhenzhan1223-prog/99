@@ -1,0 +1,11 @@
+{
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "dist",
+  "installCommand": "pnpm install",
+  "framework": null,
+  "rewrites": [
+    { "source": "/api/appointment", "destination": "/api/appointment" },
+    { "source": "/api/apply", "destination": "/api/apply" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
